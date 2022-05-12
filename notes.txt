@@ -1,0 +1,19 @@
+Contains my notes for the project
+
+Efficiency
+I have been super innefficient with the simulation. I don't really care too much to optimize the code right now as I want to find a solution first.
+
+Mutation Optimization
+I have been trying to find a way to use an array to store all of the classes. To simulation mutations, I would use a system to move on to the next creature in the array, which would be the product of successful mutation. 
+
+Function Issues
+My problem is that functions wouldn't work for every creature. Each creature has different ways of being created. I can't use blue and green with one function as green doesnt have a birth simulation. I will try creating functions only for global actions, such as death. Mutations will be difficult to implement.
+
+Predictions
+I find it really interesting that the prediction graph perfectly matched the shape of the simulation results graph. Maybe I did something wrong though. 
+I would implement the predictions algorithm to replace the normal algorithm but there are several issues with this.
+For one, the numbers of the prediction graph are way too high. I can't accurately measure the results of the simulation if the numbers are incorrect.
+Secondly, this would probably take away from the randomeness. It doesn't appear to do so in the current simulation.
+Third, the prediction graph perfectly matched the simulation results. I am very, very skeptical of this. The prediction graph is using a preset algorithm to predict what will happen next, however, the actual simulation is based off of chance.
+
+It turns out I wasn't finished with the equation in the video. I feel much more confident with this prediction system. The green is the same shape as the simulation result except it is a lot less blocky. This is because I used decimals. While the 2 don't look exactly the same, you can definetely see how the simulation result is the same as the expectation result.
